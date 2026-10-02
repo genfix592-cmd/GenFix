@@ -1,1 +1,0 @@
-document.getElementById('quoteForm').addEventListener('submit',function(e){e.preventDefault();const msg=`NEW QUOTE REQUEST%0AName: ${name.value}%0AEmail: ${email.value}%0APhone: ${phone.value}%0AService: ${service.value}%0ADetails: ${message.value}`;window.open('https://wa.me/5926148908?text='+encodeURIComponent(msg),'_blank');});
